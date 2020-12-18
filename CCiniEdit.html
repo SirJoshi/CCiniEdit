@@ -1,0 +1,80 @@
+<html>
+    <style>
+        body{
+            color: white;
+            font-family: 'Roboto Mono', 'Consolas', monospace;
+            background-color: #222;
+        }
+
+        div{
+            margin: 4px;
+        }
+
+        div.navbar{
+            width: 100%;
+            background-color: #ddd;
+            
+        }
+
+        div.editor{
+            width: 100%;
+            min-height: 64px;
+            background-color: #333;
+        }
+
+        div.navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            }
+
+        div.navbar li {
+            
+        }
+        
+        div.navbar li a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: black;
+        }
+
+        div.navbar li p {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 0px 16px;
+            text-decoration: none;
+            color: black;
+        }
+
+        div.navbar li p.heart {
+            float: right;
+            display: block;
+            text-align: right;
+            padding: 0px 16px;
+            text-decoration: none;
+            color: black;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+        div.navbar li a:hover {
+            background-color: #111;
+        }
+    </style>
+    
+    <h2>Joshua's CCiniEdit 📝</h2>
+    <div class="navbar">
+        <ul>
+            <li><a>open</a></li>
+            <li><a>export</a></li>
+            <li><a>help</a></li>
+            <li><p class="heart">made with love <3</p></li>
+        </ul>
+    </div>
+    <div class="editor"></div>
+
+</html>
